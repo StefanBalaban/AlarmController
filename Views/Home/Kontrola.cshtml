@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Kontrola Stanja Alarma";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    @Html.ActionLink("Upali Alarm", "Upali", "Home", routeValues: null, htmlAttributes: new { @class = "btn btn-info btn-md", style = "white-space: normal" }) 
+</div>
+<div>
+    @Html.ActionLink("Ugasi Alarm", "Ugasi", "Home", routeValues: null, htmlAttributes: new { @class = "btn btn-info btn-md", style = "white-space: normal" })
+</div>
+
